@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #BEBEBE;
+}
+
+div  {
+	margin-bottom: 5px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: left;	
+	margin-bottom: 30px;
+}
+
+#container {
+	width: 900px;
+	height: auto;
+	margin: 15px auto;
+	text-align: justify;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	padding: 15px;
+}
+
+#header {
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #D2691E;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+	margin-top: 5px;
+	padding: 5px 0;
+	text-transform: uppercase;
+}
+
+#content {
+	width: 900px;
+	height: auto;
+	margin: 20px auto;
+}
+
+#content p {
+	text-align: center;
+	font-family: Verdana;
+	font-size: 12px;	
+	font-style: italic; 
+}
+
+textarea {
+	width: 400px;
+	height: 300px;
+	font-size: 16px;
+	margin: 0px 20px;
+	margin-bottom: 20px;
+}
+
+input, label {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	margin: 0px 20px;
+	margin-bottom: 20px;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	font-size: 16px;
+	margin: 0px 20px;
+	clear: both;
+}
+
+#footer{
+	width: 900px;
+	height: 35px;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: #DEDEDE;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 12px;
+}
