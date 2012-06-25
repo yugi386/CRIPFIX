@@ -16,12 +16,12 @@
 				<h2>Criptografando Mensagens</h2> 		
 				<form id="form">
 					<textarea name="msg"></textarea>
-					<textarea name="cmsg"></textarea>
+					<textarea id="cmsg" name="cmsg"></textarea>
 					<label>Chave:</label>
 					<input type="text" name="key" maxlength="16" />
 					<label>Coloque o texto claro à esquerda e o texto cifrado à direita.</label><br>
-					<button name="cript" onclick="cripto();">Criptografar</button>
-					<button name="decript">Decifrar</button>
+					<input type="button" name="cript" onclick="cripto();" value="Criptografar"/>
+					<input type="button" name="decript" value="Decifrar">
 				</form>	
 			</div>	
 			
